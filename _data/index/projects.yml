@@ -1,0 +1,24 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Server-Suite
+  i18n: server_suite
+  gh_user: Server-Suite
+  repo: Server-Suite
+  img: /static/assets/img/landing/server_suite.png
+  desc: This is a GUI based server configuration tool. It is made in Python and GUI is designed using PyQt4 & PyQt5 framework.
+
+- name: Hybrid Cloud Automation Using ManageIQ Ansible
+  i18n: Hybrid-Cloud-Automation-Using-Ansible-ManageIQ
+  gh_user: saurabhlondhe
+  repo: Hybrid-Cloud-Automation-Using-Ansible-ManageIQ-
+  img: /static/assets/img/landing/miq.png
+  desc: This project is one of our try to automate hybrid cloud using ManageIQ and Ansible.
+
+- name: FileOp
+  i18n: FileOp
+  gh_user: saurabhlondhe
+  repo: fileop
+  url: https://pypi.org/project/fileop/
+  img: /static/assets/img/landing/python.png
+  desc: Simple File handing module to reduce writing efforts in Python.

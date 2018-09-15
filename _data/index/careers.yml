@@ -1,0 +1,43 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Red Hat
+    i18n: company_a
+  desc:
+    detail: I am working  as an Inter At Red Hat
+    i18n: Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
+  date:
+    detail: July. 2018
+    i18n: company_a_date
+  job:
+    detail: Intern
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: FashioStreet
+    i18n: company_b
+  desc:
+    detail: I worked as a intern at FashioStreet
+    i18n: company_b_desc
+  date:
+    detail: July. 2018
+    i18n: company_b_date
+  job:
+    detail: Intern
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: Garduation
+    i18n: company_c
+  desc:
+    detail: In 2019 will complete my graduation.
+    i18n: company_c_desc
+  date:
+    detail: July. 2019
+    i18n: company_c_date
+  job:
+    detail: Student
+    i18n: company_c_job
+  icon: fa fa-book
