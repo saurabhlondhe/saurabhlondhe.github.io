@@ -60,6 +60,7 @@ It has username as *admin* and the password is *smartvm*. Get the login and expl
 It can be useful to commit a container’s file changes or settings into a new image. This allows you to debug a container by running an interactive shell, or to export a working dataset to another server. 
 
     docker commit "container_id" manageiq
+    
 this saves all changes and data, next time run the ``` manageiq``` container.
 
 Reference: http://manageiq.org/docs/get-started/docker
