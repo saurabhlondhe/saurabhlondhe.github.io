@@ -22,7 +22,7 @@ permalink: /blog/
                     <div class="col-md-10">
                         <div class="vote-actions">
                         </div>
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title" style="color: black">
                             {{ post.title }}
                         </a>
                         <div class="vote-info">
@@ -35,7 +35,7 @@ permalink: /blog/
                     </div>
                     <div class="col-md-2 ">
                         <div class="vote-icon">
-                            {% if post.icon %}<i class="fa {{ post.icon }}"> </i>{% endif %}
+                            {% if post.icon %}<i class="fa {{ post.icon }}"  style="color:black"> </i>{% endif %}
                         </div>
                     </div>
                 </div>
