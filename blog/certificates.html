@@ -14,7 +14,7 @@ permalink: /certificates/
     <div>
     {% for image in site.static_files %}
         {% if image.path contains 'img/certs' %}
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image"  style="width:40%"/>
         {% endif %}
     {% endfor %}
     </div>
