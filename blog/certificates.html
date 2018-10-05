@@ -11,7 +11,7 @@ permalink: /certificates/
         <h1>My Certifications</h1>
         <h3>Can be varify on respected sites</h3>
     </div>
-    <div>
+    <div align="center">
     {% for image in site.static_files %}
         {% if image.path contains 'img/certs' %}
             <img src="{{ site.baseurl }}{{ image.path }}" alt="image"  style="width:40%"/>
