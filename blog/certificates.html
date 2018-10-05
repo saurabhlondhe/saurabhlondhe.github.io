@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Donate
+title: Certifications
 permalink: /certificates/
 ---
     <link href="{{ "/static/slick/slick.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -10,5 +10,12 @@ permalink: /certificates/
         <div class="navy-line"></div>
         <h1>My Certifications</h1>
         <h3>Can be varify on respected sites</h3>
+    </div>
+    <div>
+    {% for image in site.static_files %}
+        {% if image.path contains 'img/certs' %}
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        {% endif %}
+    {% endfor %}
     </div>
 </div>
