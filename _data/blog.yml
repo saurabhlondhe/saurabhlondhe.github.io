@@ -9,14 +9,14 @@
 - name: Linux
   href: /linux/
 
-- name: Open Source
-  href: /open_source/
-
 - name: HTML
   href: /html/
 
 - name: Project
   href: /project/
+
+- name: Technology
+  href: /technology/
 
 - name: Life
   href: /life/
