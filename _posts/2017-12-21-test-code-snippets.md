@@ -20,7 +20,7 @@ This is a text snippet
 
 This is a JavaScript snippet:
 
-```
+```javascript
 const add = (a, b) => a + b
 const minus = (a, b) => a - b
 
@@ -30,7 +30,7 @@ console.log(minus(100,200))  // -100
 
 This is a Python snippet:
 
-```
+```python
 def say_hello():
     print("hello world!")
 
