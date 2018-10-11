@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deploy a python app using opanfaas"
+title:  "Deploy a python app using OpenFaaS"
 date:   2018-10-10
 desc: "A python app written for calculating sum of elements is delpoyed using OpenFaas"
 keywords: "platformasaservice,faas,openfass,swarm,blog,docker"
