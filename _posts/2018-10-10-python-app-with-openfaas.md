@@ -53,6 +53,7 @@ With FaaS developers can focun on development more than servers and deploys. Faa
         -   this function only returns args passed
 
     -   add code to get sum of elements
+        
         ```python
         def handle(req):
             sum=0
@@ -60,7 +61,7 @@ With FaaS developers can focun on development more than servers and deploys. Faa
             for i in req:
                 sum+=int(i)
             return str(sum)
-            ```      
+        ```      
     -   if any dependancy needed add it into ```./elements-sum/requirements.txt```
 
     -   build, push to docker hub and deploy function containers
@@ -74,7 +75,7 @@ With FaaS developers can focun on development more than servers and deploys. Faa
             ```10,20,30,40,50```
         
             will provide output as ```150```
-        ![http://127.0.0.1:8080/ui/](/static/assets/img/blog/openfaas/openfaas_demo1.png)
+        <img src="/static/assets/img/blog/openfaas/openfaas_demo1.png" style="width: 40%">
 
         -   or 
 
