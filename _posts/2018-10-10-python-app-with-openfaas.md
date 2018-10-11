@@ -75,7 +75,9 @@ With FaaS developers can focun on development more than servers and deploys. Faa
             ```10,20,30,40,50```
         
             will provide output as ```150```
-        <img src="/static/assets/img/blog/openfaas/openfaas_demo1.png" style="width: 40%">
+
+            
+        <img src="/static/assets/img/blog/openfaas/openfaas_demo1.png" style="width: 70%">
 
         -   or 
 
