@@ -5,5 +5,5 @@
 - src: landing/header_one.gif
   title: We are making world Automated
 
-#- src: landing/header_two.png
-#  title: Nodes of community
+- src: landing/header_two.png
+  title: Nodes of community
