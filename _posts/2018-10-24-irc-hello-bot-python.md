@@ -77,7 +77,7 @@ PRIVMSG <channel-name> <user-name> <msg> #sends private messege to channel
 
 -   send nick name to server
     ```python
-    irc.send("USER " + botnick + " " + botnick + " " + botnick + " :"+NAME+"\n")
+    irc.send("NICK " + botnick + "\n")
     ```
 
 -   joining channel
