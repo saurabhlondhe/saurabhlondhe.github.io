@@ -106,7 +106,8 @@ sys.setdefaultencoding('utf8')
 
 channel = '#demobot'
 server = "chat.freenode.net"
-botnick = hello_bot
+botnick = "hello_bot"
+NAME = "Love Python"
 PORT = 6667
 sentUser = False
 sentNick = False
