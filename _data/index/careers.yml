@@ -15,20 +15,6 @@
   icon: fa-plus-square
 
 - name:
-    detail: FashioStreet
-    i18n: company_b
-  desc:
-    detail: I worked as a intern at FashioStreet
-    i18n: company_b_desc
-  date:
-    detail: July. 2018
-    i18n: company_b_date
-  job:
-    detail: Intern
-    i18n: company_b_job
-  icon: fa-plus-square
-
-- name:
     detail: Garduation
     i18n: company_c
   desc:
