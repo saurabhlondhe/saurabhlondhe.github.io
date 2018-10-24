@@ -47,6 +47,7 @@ configuration, deployment, and orchestration language.
     - Login using ssh
             
             # ssh root@<ip_of_server>
+
         - user: _root_
         - password: _smartvm_
 
@@ -101,7 +102,7 @@ Pressing Enter will lead to the Advanced Settings
 ManageIQ uses PostgreSQL Database. So while dealing with ManageIQ database we'll need to follow PostgreSQL commands and procedure to take a database dump as a backup and to restore it in another instance.
 
 
-    Note: ManageIQ uses "`vmdb_production`" database  
+    Note: ManageIQ uses "vmdb_production" database  
 
 
 ---
