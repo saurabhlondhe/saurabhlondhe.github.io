@@ -4,10 +4,10 @@
     detail: Red Hat
     i18n: company_a
   desc:
-    detail: I worked as an Inter At Red Hat, Pune
+    detail: I worked as an Inter At Red Hat, Pune. I was assigned a task to automate a Hybrid Cloud using ManageIQ and Ansible. In this 3 months I learnt those two technologies and completed by project.
     i18n: Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
   date:
-    detail: July. 2018
+    detail: July. 2018 - Sept. 2018
     i18n: company_a_date
   job:
     detail: Intern
@@ -18,7 +18,7 @@
     detail: Garduation
     i18n: company_c
   desc:
-    detail: In 2019 will complete my graduation.
+    detail: In 2019 will complete my graduation as a Bachelor of Technology in Computer Science and Enginnering
     i18n: company_c_desc
   date:
     detail: July. 2019
