@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "pythone.learning"
+title:  "python.learning"
 date:   2018-11-04
 desc: "python devolopers tricks and tricks"
 keywords: "python,tricks,gh-pages,website,blog"
