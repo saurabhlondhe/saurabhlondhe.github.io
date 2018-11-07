@@ -1,0 +1,7 @@
+- name: Red Hat Certified Engineer
+  i18n: server_suite
+  id_url: https://img.shields.io/badge/RHCE-170--231--674-red.svg    # img id
+  v_id: https://www.redhat.com/rhtapps/services/verify/?certId=170-231-674&isSearch=False&verify=Verify      # varification id
+  url: https://pypi.org/project/fileop/       # cert img url
+  img: /static/assets/img/landing/server_suite.png    # thumbnail
+  desc: This is a GUI based server configuration tool. It is made in Python and GUI is designed using PyQt4 & PyQt5 framework.
