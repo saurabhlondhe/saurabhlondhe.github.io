@@ -13,3 +13,19 @@
   url: /static/assets/img/certs/RHCSA.png       # cert img url
   img: /static/assets/img/landing/redhat.png    # thumbnail
   desc: An IT professional who has earned the Red Hat Certified System Administrator (RHCSA®) is able to perform the core system administration skills required in Red Hat Enterprise Linux environments. The credential is earned after successfully passing the Red Hat Certified System Administrator (RHCSA) Exam (EX200).
+
+- name: Programming Data Structure And Algorithms Using Python
+  i18n: nptel-python
+  id_url: https://img.shields.io/badge/NPTEL-2017-blue.svg
+  v_id: /static/assets/img/certs/nptel.jpg
+  url: /static/assets/img/certs/nptel.jpg
+  img: /static/assets/img/landing/nptel.jpg    # thumbnail
+  desc: This course is an introduction to programming and problem solving in Python.  It does not assume any prior knowledge of programming. It goes on to cover searching and sorting algorithms, dynamic programming and backtracking, as well as topics such as exception handling and using files.  As far as data structures are concerned, the course covers Python dictionaries as well as classes and objects for defining user defined datatypes such as linked lists and binary search trees.
+
+- name: Python For Data Science
+  i18n: datacamp-python
+  id_url: https://img.shields.io/badge/Data%20Camp-3%2C668%2C694-blue.svg
+  v_id: /static/assets/img/certs/datacamp.png
+  url: /static/assets/img/certs/datacamp.png
+  img: /static/assets/img/landing/datacamp.png    # thumbnail
+  desc: Master the basics of data analysis in Python. Expand your skill set by learning scientific computing with numpy.
