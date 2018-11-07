@@ -1,7 +1,15 @@
 - name: Red Hat Certified Engineer
-  i18n: server_suite
+  i18n: rhce
   id_url: https://img.shields.io/badge/RHCE-170--231--674-red.svg    # img id
   v_id: https://www.redhat.com/rhtapps/services/verify/?certId=170-231-674&isSearch=False&verify=Verify      # varification id
-  url: https://pypi.org/project/fileop/       # cert img url
-  img: /static/assets/img/landing/server_suite.png    # thumbnail
-  desc: This is a GUI based server configuration tool. It is made in Python and GUI is designed using PyQt4 & PyQt5 framework.
+  url: /static/assets/img/certs/RHCE.png       # cert img url
+  img: /static/assets/img/landing/redhat.png    # thumbnail
+  desc: A Red Hat® Certified Engineer (RHCE®) is a Red Hat Certified System Administrator (RHCSA) who possesses the additional skills, knowledge, and abilities required of a senior system administrator responsible for Red Hat Enterprise Linux® systems.
+
+- name: Red Hat Certified System Administrator
+  i18n: rhcsa
+  id_url: https://img.shields.io/badge/RHCSA-170--231--674-red.svg    # img id
+  v_id: https://www.redhat.com/rhtapps/services/verify/?certId=170-231-674&isSearch=False&verify=Verify      # varification id
+  url: /static/assets/img/certs/RHCSA.png       # cert img url
+  img: /static/assets/img/landing/redhat.png    # thumbnail
+  desc: An IT professional who has earned the Red Hat Certified System Administrator (RHCSA®) is able to perform the core system administration skills required in Red Hat Enterprise Linux environments. The credential is earned after successfully passing the Red Hat Certified System Administrator (RHCSA) Exam (EX200).
