@@ -13,14 +13,14 @@
   job:
     detail: Intern
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa fa-cloud
 
 - name:
     detail: Rajarambapu Institute of Technology
     i18n: company_c
     logo: /static/assets/img/landing/rit.jpg
   desc:
-    detail: In 2019 will complete my graduation as a Bachelor of Technology in Computer Science and Enginnering. <br><ul><li>First Year :- 6.51</li><li>Second Year :- 7.36</li><li>Third Year :- 7.9</li></ul><br><br><ul><li>CPI :- <b>7.63</b></li></ul>
+    detail: In 2019 will complete my graduation as a Bachelor of Technology in Computer Science and Enginnering. <br><ul><li>First Year :- 6.51</li><li>Second Year :- 7.36</li><li>Third Year :- 7.9</li></ul><br><ul><li>CPI :- <b>7.63</b></li></ul>
     i18n: company_c_desc
   date:
     detail: July. 2019
@@ -28,4 +28,4 @@
   job:
     detail: Computer Science & Engineering Student
     i18n: company_c_job
-  icon: fa fa-cloud
+  icon: fa fa-book
