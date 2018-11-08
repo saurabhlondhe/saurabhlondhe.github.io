@@ -11,4 +11,4 @@
     detail: Data Camp
     url: /static/assets/img/landing/datacamp.png
     i18n: company_a_job
-  icon: fa fa-python
+  icon: fa icon-python
