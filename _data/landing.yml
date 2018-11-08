@@ -28,7 +28,6 @@
   i18n: nav.certificates
   name: Certificates
   tpl: certificates.html
-  page: certificates/
   css: project
 
 - id: blog
