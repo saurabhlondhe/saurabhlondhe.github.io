@@ -18,7 +18,7 @@
 - name:
     detail: Garduation
     i18n: company_c
-    logo: /static/assets/img/landing/rit.png
+    logo: /static/assets/img/landing/rit.jpg
   desc:
     detail: In 2019 will complete my graduation as a Bachelor of Technology in Computer Science and Enginnering
     i18n: company_c_desc
