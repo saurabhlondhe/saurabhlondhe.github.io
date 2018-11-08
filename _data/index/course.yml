@@ -1,0 +1,14 @@
+- name:
+    detail: Introduction to Data Science using Python
+    i18n: company_a
+  desc:
+    detail: Master the basics of data analysis in Python. Expand your skill set by learning scientific computing with numpy.
+    i18n: Master the basics of data analysis in Python. Expand your skill set by learning scientific computing with numpy.
+  date:
+    detail: July. 2017
+    i18n: company_a_date
+  provider:
+    detail: Data Camp
+    url: /static/assets/img/landing/datacamp.png
+    i18n: company_a_job
+  icon: fa-fa-python
