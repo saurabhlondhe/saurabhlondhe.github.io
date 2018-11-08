@@ -24,19 +24,19 @@
   tpl: projects.html
   css: project
 
+- id: certificates
+  i18n: nav.certificates
+  name: Certificates
+  tpl: certificates.html
+  page: certificates/
+  css: project
+
 - id: blog
   i18n: nav.blog
   name: Blog
   tpl: blog.html
   page: blog/
   css: testimonials navy-section
-
-
-- id: certificates
-  i18n: nav.certificates
-  name: Certificates
-  page: certificates/
-#  css: contact
 
 - id: links
   i18n: nav.link
