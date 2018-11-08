@@ -20,7 +20,7 @@
     i18n: company_c
     logo: /static/assets/img/landing/rit.jpg
   desc:
-    detail: In 2019 will complete my graduation as a Bachelor of Technology in Computer Science and Enginnering
+    detail: In 2019 will complete my graduation as a Bachelor of Technology in Computer Science and Enginnering. <br><ul><li>First Year :- 6.51</li><li>Second Year :- 7.36</li><li>Third Year :- 7.9</li></ul>
     i18n: company_c_desc
   date:
     detail: July. 2019
