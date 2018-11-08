@@ -1,0 +1,76 @@
+---
+layout: blog
+title: Certifications
+permalink: /certificates/
+---
+<div class="container" id="i18_projects">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="projects.my_projects">I'm Certified in</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        {% for certs in site.data.index.certs %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if forloop.last %}
+                {% if forloop.last == forloop.first %}
+            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                {% endif %}
+            {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+            {% endif %}
+              <div class="team-member">
+                  <img src="{{ certs.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                  <h4>
+                  {% if certs.url %}
+                  <a href="{{ certs.url }}" target="_blank"><span class="navy">{{ certs.name }}</span></a>
+                  {% else %}
+                  <span class="navy">{{ certs.name }}</span>
+                  {% endif %}
+                  </h4>
+                  <p><span data-i18n="projects.{{ certs.i18n }}">{{ certs.desc }}</span></p>
+                  {% if certs.id_url %}
+                  <div class="ghbtn">
+                      <a href="{{ certs.v_id }}" target="_blank" ><img target="_blank" src="{{ certs.id_url }}"></img></a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  {% endif %}
+              </div>
+          </div>
+      {% endfor %}
+    </div>
+</div>
+<br>
+<!--***************************************************************************************************-->
+<div class="container" id="i18_career">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="career.my_career">My Career</span></h1>
+        </div>
+    </div>
+    <div class="row features-block">
+        <div class="col-lg-12">
+            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+            {% for course in site.data.index.course %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                        <i class="fa {{ course.icon }}"></i>
+                    </div>
+                    <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
+                        <center><img src="{{ course.provider.url | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt=""></center>
+                        <h2><span data-i18n="career.{{ course.name.i18n }}">{{ course.name.detail }}</span></h2>
+                        <p><span data-i18n="career.{{ course.desc.i18n }}">{{ course.desc.detail }} </span></p>
+                        <span class="vertical-date"><span data-i18n="career.{{ course.date.i18n }}"> {{ course.date.detail }} </span>
+                        <br/> <small><span data-i18n="career.{{ course.provider.i18n }}">{{ course.provider.detail }}</span></small> </span>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
