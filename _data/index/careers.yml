@@ -3,6 +3,7 @@
 - name:
     detail: Red Hat
     i18n: company_a
+    logo: /static/assets/img/landing/redhat.png
   desc:
     detail: I worked as an Inter At Red Hat, Pune. I was assigned a task to automate a Hybrid Cloud using ManageIQ and Ansible. In these 3-months I learnt these technologies and completed my project.
     i18n: Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
