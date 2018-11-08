@@ -35,12 +35,11 @@
 - id: certificates
   i18n: nav.certificates
   name: Certificates
-  tpl: certificates.html
   page: certificates/
 #  css: contact
 
-#- id: links
-#  i18n: nav.link
-#  name: Links
-#  tpl: links.html
-#  css: contact
+- id: links
+  i18n: nav.link
+  name: Links
+  tpl: links.html
+  css: contact
