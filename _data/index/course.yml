@@ -12,3 +12,63 @@
     url: /static/assets/img/landing/datacamp.png
     i18n: company_a_job
   icon: fa icon-python
+
+- name:
+    detail: Python3 Tutorial
+    i18n: company_a
+  desc:
+    detail: 
+    i18n: 
+  date:
+    detail: August 2017
+    i18n: company_a_date
+  provider:
+    detail: Sololearn
+    url: /static/assets/img/landing/solo.jpg
+    i18n: company_a_job
+  icon: fa icon-python
+
+- name:
+    detail: Java Tutorial
+    i18n: company_a
+  desc:
+    detail: 
+    i18n: 
+  date:
+    detail: August 2017
+    i18n: company_a_date
+  provider:
+    detail: Sololearn
+    url: /static/assets/img/landing/solo.jpg
+    i18n: company_a_job
+  icon: fa icon-java
+
+- name:
+    detail: HTML Fundamentals
+    i18n: company_a
+  desc:
+    detail: 
+    i18n: 
+  date:
+    detail: August 2017
+    i18n: company_a_date
+  provider:
+    detail: Sololearn
+    url: /static/assets/img/landing/solo.jpg
+    i18n: company_a_job
+  icon: fa icon-html
+
+- name:
+    detail: C++ Tutorials
+    i18n: company_a
+  desc:
+    detail: 
+    i18n: 
+  date:
+    detail: August 2017
+    i18n: company_a_date
+  provider:
+    detail: Sololearn
+    url: /static/assets/img/landing/solo.jpg
+    i18n: company_a_job
+  icon: fa icon-c
