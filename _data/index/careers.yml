@@ -1,18 +1,33 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Red Hat
+    detail: Emtec Inc.
     i18n: company_a
+    logo: /static/assets/img/landing/emtec.png
+  desc:
+    detail: Working as an Intern for software development.
+    i18n: company_a_desc
+  date:
+    detail: Dec. 2018 - present
+    i18n: company_a_date
+  job:
+    detail: Intern
+    i18n: company_a_job
+  icon: fa fa-cloud
+
+- name:
+    detail: Red Hat
+    i18n: company_b
     logo: /static/assets/img/landing/redhat.png
   desc:
     detail: I worked as an Intern At Red Hat, Pune. I was assigned a task to automate a Hybrid Cloud using ManageIQ and Ansible. In these 3-months I learnt these technologies and completed my project.
     i18n: Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
   date:
     detail: July. 2018 - Sept. 2018
-    i18n: company_a_date
+    i18n: company_b_date
   job:
     detail: Intern
-    i18n: company_a_job
+    i18n: company_b_job
   icon: fa fa-cloud
 
 - name:
