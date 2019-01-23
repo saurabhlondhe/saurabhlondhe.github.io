@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Linux/Shell, Git, C#, HTML5, JavaScript, PyQt, AWS, Python, Docker, Xenserver, Ansible, MySQL, PostgreSQL
-percentage: 75, 80, 70, 75, 60, 80, 50, 85, 70, 80, 50, 75, 60
+aspects: Linux/Shell, Git, C#, HTML5, JavaScript, Angular, PyQt, AWS, Python, Docker, Xenserver, Ansible, MySQL, PostgreSQL
+percentage: 75, 90, 80, 75, 80, 75, 80, 50, 85, 70, 80, 50, 75, 60
