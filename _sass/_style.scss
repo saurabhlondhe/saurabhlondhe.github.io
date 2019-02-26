@@ -181,6 +181,8 @@ h3, h4, h5 {
 }
 
 body {
+  cursor: none;
+  cursor: url('../assets/img/cursor.png') 1 1, auto !important;
   &.fixed-nav #wrapper #page-wrapper {
     margin-top: 60px;
   }
