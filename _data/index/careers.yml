@@ -13,7 +13,7 @@
   job:
     detail: Intern
     i18n: company_a_job
-  icon: fa icon-angular
+  icon: fa fa-cloud
 
 - name:
     detail: Red Hat
