@@ -1998,7 +1998,7 @@ ul.clear-list:first-child {
 .vote-icon {
   text-align: right;
   font-size: 38px;
-  color: #e8e9ea;
+  color: #000000 !important;
   &.active {
     color: #000000;
   }
@@ -2810,6 +2810,9 @@ body {
         border: none;
       }
     }
+  }
+  .vote-icon{
+    font-size: 25px;
   }
 }
 
