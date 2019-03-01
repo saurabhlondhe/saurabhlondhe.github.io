@@ -47,28 +47,28 @@ The first two things you'll want to do are install git and create a free GitHub 
         ```
 2)  Create local repository
 
-    Make a folder for your project 
+    -   Make a folder for your project 
 
         ```sh
         $ mkdir testProject
         ```
 
-    naviagate into folder
+    -   naviagate into folder
 
         ```sh
         $ cd testProject/
         ```
     
-    To initialize a git repository in the root of the folder, run the ```git init``` command
+    -   To initialize a git repository in the root of the folder, run the ```git init``` command
 
         ```sh
         $ git init
         Initialized empty Git repository in C:/Users/Saurabh Londhe/github/testProject/.git/
         ```
 
-    git has created a hidden folder in your working directory as ```.git```
+    -   git has created a hidden folder in your working directory as ```.git```
     
-    This git folder will have these folders
+    -   This git folder will have these folders
         ```sh
         ├───hooks
         ├───info
@@ -91,7 +91,7 @@ The first two things you'll want to do are install git and create a free GitHub 
 4)  Add files into new repo
 
 
-    Then you can commit files in that directory into the repo.
+    -   Then you can commit files in that directory into the repo.
 
         ```sh
         $ touch test.txt        #creats a file
@@ -114,7 +114,7 @@ The first two things you'll want to do are install git and create a free GitHub 
 
     -   ```Untracked files``` these files are newly created and that need to add using  ```git add 'filename'```
 
-    the command ```git add``` will add this file into staging area.
+    -   the command ```git add``` will add this file into staging area.
 
         ```sh
         $ git add test.txt
@@ -134,12 +134,13 @@ The first two things you'll want to do are install git and create a free GitHub 
 
 5)  Push your commited changes to remote repository
 
-    ```git push``` will push local commited chnages to remote repository
+    -   ```git push``` will push local commited chnages to remote repository
     
-    we can  can specify branch name to push the changes
+    -   we can  can specify branch name to push the changes
         ```sh
         git push origin <branch name>
         ```
+        
 Till now we have created a repo, added content, committed it and successfully pushed to the remote server.
 
 If you still stuck somewhere use following cheat sheet :)
