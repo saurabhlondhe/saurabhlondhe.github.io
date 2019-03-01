@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Let's start with git"
-date:   2018-11-04
+date:   2019-03-01
 desc: "python devolopers tricks and tricks"
 keywords: "git,git bash,master,gh-pages,website,blog"
 categories: [Linux,Project]
