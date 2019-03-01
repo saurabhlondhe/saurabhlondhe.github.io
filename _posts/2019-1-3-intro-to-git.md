@@ -47,28 +47,28 @@ The first two things you'll want to do are install git and create a free GitHub 
         ```
 2)  Create local repository
 
-    -   Make a folder for your project 
+-   Make a folder for your project 
 
         ```
         $ mkdir testProject
         ```
 
-    -   naviagate into folder
+-   naviagate into folder
 
         ```
         $ cd testProject/
         ```
     
-    -   To initialize a git repository in the root of the folder, run the ```git init``` command
+-   To initialize a git repository in the root of the folder, run the ```git init``` command
 
         ```
         $ git init
         Initialized empty Git repository in C:/Users/Saurabh Londhe/github/testProject/.git/
         ```
 
-    -   git has created a hidden folder in your working directory as ```.git```
+-   git has created a hidden folder in your working directory as ```.git```
     
-    -   This git folder will have these folders
+-   This git folder will have these folders
         ```
         ├───hooks
         ├───info
@@ -81,17 +81,17 @@ The first two things you'll want to do are install git and create a free GitHub 
         ```
 
 
-3)  Working with exsisting repo
+1)  Working with exsisting repo
 
         ```
         git clone "URL" foldername 
         ```
 
 
-4)  Add files into new repo
+2)  Add files into new repo
 
 
-    -   Then you can commit files in that directory into the repo.
+-   Then you can commit files in that directory into the repo.
 
         ```
         $ touch test.txt        #creats a file
@@ -112,9 +112,9 @@ The first two things you'll want to do are install git and create a free GitHub 
 
         ```
 
-    -   ```Untracked files``` these files are newly created and that need to add using  ```git add 'filename'```
+-   ```Untracked files``` these files are newly created and that need to add using  ```git add 'filename'```
 
-    -   the command ```git add``` will add this file into staging area.
+-   the command ```git add``` will add this file into staging area.
 
         ```
         $ git add test.txt
@@ -134,9 +134,9 @@ The first two things you'll want to do are install git and create a free GitHub 
 
 5)  Push your commited changes to remote repository
 
-    -   ```git push``` will push local commited chnages to remote repository
+-   ```git push``` will push local commited chnages to remote repository
     
-    -   we can  can specify branch name to push the changes
+-   we can  can specify branch name to push the changes
         ```
         git push origin <branch name>
         ```
