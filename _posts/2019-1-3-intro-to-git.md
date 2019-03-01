@@ -40,7 +40,7 @@ The first two things you'll want to do are install git and create a free GitHub 
 
 1)  Initial configurations
 
-        ```sh
+        ```
         $ git config --global user.name "YOUR NAME"
 
         $ git config --global user.email "YOUR EMAIL"
@@ -49,19 +49,19 @@ The first two things you'll want to do are install git and create a free GitHub 
 
     -   Make a folder for your project 
 
-        ```sh
+        ```
         $ mkdir testProject
         ```
 
     -   naviagate into folder
 
-        ```sh
+        ```
         $ cd testProject/
         ```
     
     -   To initialize a git repository in the root of the folder, run the ```git init``` command
 
-        ```sh
+        ```
         $ git init
         Initialized empty Git repository in C:/Users/Saurabh Londhe/github/testProject/.git/
         ```
@@ -69,7 +69,7 @@ The first two things you'll want to do are install git and create a free GitHub 
     -   git has created a hidden folder in your working directory as ```.git```
     
     -   This git folder will have these folders
-        ```sh
+        ```
         ├───hooks
         ├───info
         ├───objects
@@ -83,7 +83,7 @@ The first two things you'll want to do are install git and create a free GitHub 
 
 3)  Working with exsisting repo
 
-        ```sh
+        ```
         git clone "URL" foldername 
         ```
 
@@ -93,11 +93,11 @@ The first two things you'll want to do are install git and create a free GitHub 
 
     -   Then you can commit files in that directory into the repo.
 
-        ```sh
+        ```
         $ touch test.txt        #creats a file
         ```
 
-        ```sh
+        ```
         $ git status
         On branch master
 
@@ -116,7 +116,7 @@ The first two things you'll want to do are install git and create a free GitHub 
 
     -   the command ```git add``` will add this file into staging area.
 
-        ```sh
+        ```
         $ git add test.txt
         ```
 
@@ -124,7 +124,7 @@ The first two things you'll want to do are install git and create a free GitHub 
     ![Staging Area](/static/assets/img/blog/start_git/staging_area.png)
 
 
-        ```sh
+        ```
         $ git commit -m "message"
         [master (root-commit) 7dbacf2] message
         1 file changed, 0 insertions(+), 0 deletions(-)
@@ -137,10 +137,10 @@ The first two things you'll want to do are install git and create a free GitHub 
     -   ```git push``` will push local commited chnages to remote repository
     
     -   we can  can specify branch name to push the changes
-        ```sh
+        ```
         git push origin <branch name>
         ```
-        
+
 Till now we have created a repo, added content, committed it and successfully pushed to the remote server.
 
 If you still stuck somewhere use following cheat sheet :)
