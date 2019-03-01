@@ -38,14 +38,14 @@ The first two things you'll want to do are install git and create a free GitHub 
 
 ---
 
-1)  Initial configurations
+### Initial configurations
 
         ```
         $ git config --global user.name "YOUR NAME"
 
         $ git config --global user.email "YOUR EMAIL"
         ```
-2)  Create local repository
+### Create local repository
 
 -   Make a folder for your project 
 
@@ -81,14 +81,14 @@ The first two things you'll want to do are install git and create a free GitHub 
         ```
 
 
-1)  Working with exsisting repo
+### Working with exsisting repo
 
         ```
         git clone "URL" foldername 
         ```
 
 
-2)  Add files into new repo
+### Add files into new repo
 
 
 -   Then you can commit files in that directory into the repo.
@@ -132,7 +132,7 @@ The first two things you'll want to do are install git and create a free GitHub 
 
         ```
 
-5)  Push your commited changes to remote repository
+### Push your commited changes to remote repository
 
 -   ```git push``` will push local commited chnages to remote repository
     
