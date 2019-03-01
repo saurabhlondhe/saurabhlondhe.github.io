@@ -23,6 +23,7 @@ icon: icon-python
     -   as here the value of b is 3, because as dictionary property value of b will be lastly assinged value
 
 ---
+
 ## List
 -   list comprehension
     ```python
@@ -45,6 +46,7 @@ icon: icon-python
     #   [1, 2, 3, 4, 5, 6]
     ```
 ---
+
 ## itertools
 -   permutation
     ```python
@@ -78,6 +80,7 @@ icon: icon-python
     #   [('t', 'o', 'o'), ('t', 'o', 'l'), ('t', 'o', 'l'), ('o', 'o', 'l')]
     ```
 ---
+
 ## Function
 -   list of functions
     ```python
@@ -134,6 +137,7 @@ icon: icon-python
     print((add if flag else power)(3,2))    # 5
     print((add if not flag else power)(3,2))    #   9
     ```
+
 ## Programs
 -   odd even
     ```python
