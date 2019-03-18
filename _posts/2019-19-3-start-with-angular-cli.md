@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Angular and Its CLI"
+title:  "Angular and Angular CLI"
 date:   2019-03-19
 desc: ""
 keywords: "angular,agular-cli,master,gh-pages,website,blog"
@@ -11,7 +11,8 @@ icon: icon-angular
 # Angular and angular-cli
 *Angular* is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop.
 
-```angular-cli``` stands for *Angular Command Line Interface*, Angular having a structure and little configurations that can be done by using ```angular-cli``` is no time. 
+```angular-cli``` stands for *Angular Command Line Interface*, Angular having a structure and little configurations that can be done by using ```angular-cli``` in no time. 
+
 
 Angular architecture includes:
 -   Modules
@@ -19,11 +20,13 @@ Angular architecture includes:
 -   Routing
 -   Services
 
+
 Let's have a brief look to each one
 
 -   [x] Modules
     
     - The basic building blocks of an Angular application are NgModules, which provide a compilation context for components. NgModules collect related code into functional sets; an Angular app is defined by a set of NgModules. An app always has at least a root module that enables bootstrapping, and typically has many more feature modules.
+
 
 -   [x] Components
     - Every Angular application has at least one component, the root component that connects a component hierarchy with the page document object model (DOM). Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
@@ -75,7 +78,7 @@ The theory might make you sleepy try some hands-on
 
 ---
 
-Now, for installing angular cli, follows the steps given below:
+### Now, for installing angular cli, follows the steps given below:
 -   Install node.js first if not already install (which I think you probably would have downloaded)
 Open the node.js command prompt and issue the command:
 
@@ -98,6 +101,7 @@ Open the node.js command prompt and issue the command:
     - ```ng new``` will help you with that. Creates a new project structure installs npm packages, creates configurations and many more. . .
 
 2.  Run the project
+
     - ```ng serve``` allows you to run your angular app on the node server. The default port is localhost:4200. Let's try some tricks with ```ng serve```
 
     ```sh
@@ -114,6 +118,7 @@ Open the node.js command prompt and issue the command:
     > Commands needs to run under the project directory.
 
 3.  Create Components
+
     - ng generate (or just ng g) command to generate Angular components:
     
     ```sh
