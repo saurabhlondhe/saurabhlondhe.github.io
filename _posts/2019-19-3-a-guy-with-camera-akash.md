@@ -8,3 +8,5 @@ categories: [Life]
 tags: [Life,PocoClicks]
 icon: fa-angellist
 ---
+
+<img src="/static/assets/img/blog/guy-with-camera/IMG_20181207_094650.jpg" alt="" style="width:100%">
