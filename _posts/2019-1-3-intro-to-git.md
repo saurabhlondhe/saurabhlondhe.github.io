@@ -2,7 +2,7 @@
 layout: post
 title:  "Let's start with git"
 date:   2019-03-01
-desc: "python devolopers tricks and tricks"
+desc: "Basic git,working and commands"
 keywords: "git,git bash,master,gh-pages,website,blog"
 categories: [Linux,Project]
 tags: [open source,git,git bash,]
