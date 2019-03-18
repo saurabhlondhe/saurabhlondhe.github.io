@@ -72,3 +72,71 @@ Let's have a brief look to each one
     ```
 
 The theory might make you sleepy try some hands-on
+
+---
+
+Now, for installing angular cli, follows the steps given below:
+-   Install node.js first if not already install (which I think you probably would have downloaded)
+Open the node.js command prompt and issue the command:
+
+    ```sh
+    npm install -g @angular/cli
+    ```
+
+> Note: The -g flag in the above command signifies the fact that the ng-cli is being installed in a global scope.
+
+-   If you want to check out the latest version of angular cli, modify the above-stated command as:
+    
+    ```sh
+    npm install @angular/cli@latest
+    ```
+
+> Now, let me list out a few commands for you, which will come handy while creating angular projects:
+
+1.  Creating a new project
+
+    - ```ng new``` will help you with that. Creates a new project structure installs npm packages, creates configurations and many more. . .
+
+2.  Run the project
+    - ```ng serve``` allows you to run your angular app on the node server. The default port is localhost:4200. Let's try some tricks with ```ng serve```
+
+    ```sh
+    ng serve    #serves project at http://localhost:4200
+
+    ng serve --port 8888    #serves project at port :8888
+
+    ng serve --host 0.0.0.0 #hosts project in LAN can access with local IP address
+
+    ng serve -o #opens project in the default browser
+
+    ```
+
+    > Commands needs to run under the project directory.
+
+3.  Create Components
+    - ng generate (or just ng g) command to generate Angular components:
+    
+    ```sh
+    ng generate component component-name
+
+    #or
+
+    ng g c component-name
+    ```
+
+Similarly, you can create all other building blocks listed in the table below:
+
+|   | Commands |
+| ----------- | ----------- |
+| Components | ```ng g c component-name``` |
+| Modules | ```ng g module module-name``` |
+| Services | ```ng g s service-name``` |
+| Class | ```ng g class class-name``` |
+| Gaurd | ```ng g gaurd gaurd-name``` |
+| Pipe | ```ng g pipe pipe-name``` |
+
+4.  Deploy project
+
+    -  After build Angular project is converted into a JS code.
+    -  ```ng build``` is used for dev build and ```ng build --prod``` is used for prod ( production ) build.
+    -  This creats a ```./dist/project-name/``` folder with all HTML/CSS and assets which can be deployed on any IIS, Apache servers.
