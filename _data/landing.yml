@@ -33,7 +33,8 @@
 - id: blog
   i18n: nav.blog
   name: Blog
-  page: blogs/
+  tpl: blog.html
+  page: blogs/index.html
   css: testimonials navy-section
 
 - id: links
