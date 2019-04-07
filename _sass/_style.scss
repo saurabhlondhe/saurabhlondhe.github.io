@@ -1,3 +1,4 @@
+$cursor:url('../assets/img/cursor.png') 1 1, auto !important;
 .landing-page .carousel-caption {
   h1, p {
     text-transform: uppercase;
@@ -180,9 +181,19 @@ h3, h4, h5 {
   margin-top: 0;
 }
 
+.white-cursor{
+  cursor: none;
+  cursor: url('../assets/img/cursor-white.png') 1 1, auto !important;
+}
+
+#blog{
+  cursor: none;
+  cursor: url('../assets/img/cursor-white.png') 1 1, auto !important;
+}
+
 body {
   cursor: none;
-  cursor: url('../assets/img/cursor.png') 1 1, auto !important;
+  cursor: $cursor;
   &.fixed-nav #wrapper #page-wrapper {
     margin-top: 60px;
   }
@@ -1237,7 +1248,8 @@ html {
 }
 
 a {
-  cursor: pointer;
+  cursor: none;
+  cursor: url('../assets/img/cursor-hand.png') 1 1, auto !important;
   &:focus, &:hover {
     text-decoration: none;
   }
