@@ -1,4 +1,18 @@
 - name:
+    detail: Introduction to AWS
+    i18n: company_a
+  desc:
+    detail: 
+    i18n: 
+  date:
+    detail: Apr. 2019
+    i18n: company_a_date
+  provider:
+    detail: A Cloud Guru
+    url: /static/assets/img/landing/acloudguru.jpg
+    i18n: company_a_job
+  icon: fa fa-cloud
+- name:
     detail: Introduction to Data Science using Python
     i18n: company_a
   desc:
