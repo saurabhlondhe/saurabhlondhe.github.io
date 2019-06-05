@@ -8,8 +8,8 @@
   icon: icon-angular
 - name: Git
   icon: icon-git
-- name: HTML5
-  icon: icon-html5
+- name: Spring Boot
+  icon: icon-spring
 - name: Javascript
   icon: icon-javascript
 - name: AWS
@@ -20,5 +20,5 @@
   icon: fa-android
 - name: MySQL
   icon: icon-mysql
-- name: CSS3
-  icon: icon-css3
+- name: Azure
+  icon: icon-azure
