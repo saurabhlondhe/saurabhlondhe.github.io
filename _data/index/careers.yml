@@ -5,21 +5,6 @@
     i18n: company_a
     logo: /static/assets/img/landing/emtec.png
   desc:
-    detail: Worked as an Intern for software development. Worked on various technologies like Angular, AWS, AZURE, Docker, Spring Boot, etc.. 
-    i18n: company_a_desc
-  date:
-    detail: Dec. 2018 - May. 2019
-    i18n: company_a_date
-  job:
-    detail: Intern
-    i18n: company_a_job
-  icon: fa fa-cloud
-
-- name:
-    detail: Emtec Inc.
-    i18n: company_a
-    logo: /static/assets/img/landing/emtec.png
-  desc:
     detail: Working as a Trainee Software Developer. Working on technologies like Spring boot, AWS, Docker Compose, etc.
     i18n: company_a_desc
   date:
@@ -29,6 +14,22 @@
     detail: Trainee Software developer
     i18n: company_a_job
   icon: fa icon-java
+
+
+- name:
+    detail: Emtec Inc.
+    i18n: company_a
+    logo: /static/assets/img/landing/emtec.png
+  desc:
+    detail: Worked as an Intern for software development. Worked on various technologies like Angular, AWS, AZURE, Docker, Spring Boot, etc.. 
+    i18n: company_a_desc
+  date:
+    detail: Dec. 2018 - May. 2019
+    i18n: company_a_date
+  job:
+    detail: Intern
+    i18n: company_a_job
+  icon: fa fa-cloud
 
 - name:
     detail: Red Hat
