@@ -2,14 +2,15 @@
 - last_name: Londhe
   first_name: Saurabh
   desc: President RITINLUG
-  website: https://saurabhlondhe.github.io
+  website: https://saurabhlondhe.com
   email: saurabhlondhe1111@gmail.com
   certs: /certificates
-#- last_name: Londhe
-#  first_name: Saurabh
-#  desc: Github
-#  website: http://github.com/saurabhlondhe
-#  email: saurabhlondhe1111@gmail.com
+
+- last_name: Londhe
+  first_name: Saurabh
+  desc: Trainee Software Developer
+  website: https://emtecinc.com
+  email: saurabh.londhe@emtecinc.com
 
 #- last_name: Londhe
 #  first_name: Saurabh
