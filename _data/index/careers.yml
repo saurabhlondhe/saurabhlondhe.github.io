@@ -8,7 +8,7 @@
     detail: Working as a Trainee Software Developer. Working on technologies like Spring boot, AWS, Docker Compose, etc.
     i18n: company_a_desc
   date:
-    detail: Jun. 2018 - present
+    detail: Jun. 2019 - present
     i18n: company_a_date
   job:
     detail: Trainee Software developer
@@ -51,7 +51,7 @@
     i18n: company_c
     logo: /static/assets/img/landing/rit.jpg
   desc:
-    detail: In 2019 will complete my graduation as a Bachelor of Technology in Computer Science and Enginnering. <br><ul><li>First Year :- 6.51</li><li>Second Year :- 7.36</li><li>Third Year :- 7.9</li><li>Final Year :- 8.96</li></ul><br><ul><li>CPI :- <b>8.08</b></li></ul>
+    detail: Completed my graduation in 2019 as a Bachelor of Technology in Computer Science and Enginnering. <br><ul><li>First Year :- 6.51</li><li>Second Year :- 7.36</li><li>Third Year :- 7.9</li><li>Final Year :- 8.96</li></ul><br><ul><li>CPI :- <b>8.08</b></li></ul>
     i18n: company_c_desc
   date:
     detail: July. 2019
