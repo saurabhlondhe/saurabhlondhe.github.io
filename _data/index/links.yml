@@ -1,19 +1,7 @@
 # links section data
 - last_name: Londhe
   first_name: Saurabh
-  desc: President RITINLUG
+  desc: Trainee Software Developer
   website: https://saurabhlondhe.com
   email: saurabhlondhe1111@gmail.com
   certs: /certificates
-
-- last_name: Londhe
-  first_name: Saurabh
-  desc: Trainee Software Developer
-  website: https://emtecinc.com
-  email: saurabh.londhe@emtecinc.com
-
-#- last_name: Londhe
-#  first_name: Saurabh
-#  desc: Linked In
-#  website: https://www.linkedin.com/in/saurabh-londhe
-#  email: saurabhlondhe1111@gmail.com
