@@ -2,8 +2,8 @@
 
 # Website settings
 title: Saurabh Londhe
-description: Saurabh Londhe's Personal blogs.
-keywords: Saurabh,saurabhlondhe,blog,Jekyll,github,gh-pages
+description: Saurabh Londhe is an open source enthusiastic. He is RHEL7 Certified Engineer and RHEL7 Certified SystemAdmin. Programming domain Python. Worked with Red Hat for Hybrid Cloud Technologies. Currently working in Emtec Inc.
+keywords: Saurabh,saurabhlondhe,blog,Saurabh Londhe
 baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://saurabhlondhe.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
