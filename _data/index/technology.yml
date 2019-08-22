@@ -10,6 +10,8 @@
   icon: icon-git
 - name: Spring Boot
   icon: icon-spring
+- name: ReactJS
+  icon: icon-reactjs
 - name: Javascript
   icon: icon-javascript
 - name: AWS
@@ -18,7 +20,5 @@
   icon: icon-docker
 - name: Android
   icon: fa-android
-- name: MySQL
-  icon: icon-mysql
 - name: Azure
   icon: icon-azure
