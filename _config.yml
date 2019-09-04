@@ -7,20 +7,20 @@ keywords: Saurabh,saurabhlondhe,blog,Saurabh Londhe
 baseurl: "" # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 # url: https://saurabhlondhe.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 url: ""
-img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /static/assets/img/blog # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: Saurabh Londhe  # Be used at blog posts' author.
-  first_name: Saurabh  # Be used at index page about me section.
-  last_name: Londhe  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: saurabhlondhe  # Leave blank if you don't have now
+author: # change following line to your infomation.
+  name: Saurabh Londhe # Be used at blog posts' author.
+  first_name: Saurabh # Be used at index page about me section.
+  last_name: Londhe # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg # upload your avatar at directory and edit it.
+  github_username: saurabhlondhe # Leave blank if you don't have now
   linkedin_id: saurabh-londhe # Leave blank if you don't have now
-  facebook_username: iamsaurabhlondhe  # Leave blank if you don't have now
-  twitter_username: imsaurabhlondhe  # Leave blank if you don't have now
-  email: saurabhlondhe1111@gmail.com  # Leave blank if you don't have now
-  cv: /static/docs/saurabh_londhe_cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  facebook_username: iamsaurabhlondhe # Leave blank if you don't have now
+  twitter_username: imsaurabhlondhe # Leave blank if you don't have now
+  email: saurabhlondhe1111@gmail.com # Leave blank if you don't have now
+  cv: /static/docs/saurabh_londhe_cv.pdf # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-linux
@@ -30,7 +30,7 @@ author:  # change following line to your infomation.
     - name: icon-docker
     - name: icon-shell
 
-  desc: Ex President of RIT India Linux Users' Group | Red Hat Certified Engineer | Red Hat Certified System Administrator | Open Source Contributor | Linux User | Python lover  # Describe yourself.
+  desc: Ex President of RIT India Linux Users' Group | Red Hat Certified Engineer | Red Hat Certified System Administrator | Open Source Contributor | Linux User | Python lover <br> I have a bit of experience in the cloud. Worked on many cloud platforms like AWS, Azure, OpenFass, and Aneka <br> Successfully done a CI-CD for Angular and C# based project over Azure DevOps and worked on GitLab's CI for many projects.
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -45,16 +45,12 @@ author:  # change following line to your infomation.
 go:
   # id:
 
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
-
 ## donation
-donation: off  # type 'on'/'off' to choice display donation button at post page or not
+donation: off # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
+index_carousel: on # index page carousel switch
+blog_carousel: on # blog page carousel switch
 
 # scss
 sass:
@@ -69,6 +65,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
-
 #theme: jekyll-theme-slate

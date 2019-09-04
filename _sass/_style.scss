@@ -1322,8 +1322,6 @@ html {
 }
 
 a {
-  cursor: none;
-  cursor: url("../assets/img/cursor-hand.png") 1 1, auto !important;
   &:focus,
   &:hover {
     text-decoration: none;
