@@ -2,7 +2,7 @@
 
 # Website settings
 title: Saurabh Londhe
-description: Saurabh Londhe is an open source enthusiastic. He is RHEL7 Certified Engineer and RHEL7 Certified SystemAdmin. Programming domain Python. Worked with Red Hat for Hybrid Cloud Technologies. Currently working in Emtec Inc.
+description: Saurabh Londhe is an open-source enthusiastic. He is an RHEL7 Certified Engineer and RHEL7 Certified SystemAdmin. Programming domain Python. Worked with Red Hat for Hybrid Cloud Technologies. Currently working in Emtec Inc.
 keywords: Saurabh,saurabhlondhe,blog,Saurabh Londhe
 baseurl: "" # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 # url: https://saurabhlondhe.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -30,7 +30,7 @@ author: # change following line to your infomation.
     - name: icon-docker
     - name: icon-shell
 
-  desc: Ex President of RIT India Linux Users' Group | Red Hat Certified Engineer | Red Hat Certified System Administrator | Open Source Contributor | Linux User | Python lover <br> I have a bit of experience in the cloud. Worked on many cloud platforms like AWS, Azure, OpenFaas, and Aneka. <br> Successfully done a CI-CD for Angular and C# based project over Azure DevOps and worked on GitLab's CI for many projects.<br> Worked some complex utilities written in python. I am known for my quick understanding, fast and effective implementation of problems. Full stack with Angular and React as frontend framworks as well Python(Flask), Java(Spring boot) for a backend developement.
+  desc: Ex-President of RIT India Linux Users' Group | Red Hat Certified Engineer | Red Hat Certified System Administrator | Open Source Contributor | Linux User | Python lover <br> I have a bit of experience in the cloud. Worked on many cloud platforms like AWS, Azure, OpenFaas, and Aneka. <br> Successfully done a CI-CD for Angular and C# based project over Azure DevOps and worked on GitLab's CI for many projects.<br> Worked some complex utilities written in python. I am known for my quick understanding, fast and effective implementation of problems. Full-stack with Angular and React as frontend frameworks as well Python(Flask), Java(Spring boot) for backend development.
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
