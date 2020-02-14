@@ -4,21 +4,19 @@
   icon: icon-redhat
 - name: Python
   icon: icon-python
+- name: ReactJS
+  icon: icon-reactjs
 - name: Angular
   icon: icon-angular
 - name: Git
   icon: icon-git
 - name: Spring Boot
   icon: icon-spring
-- name: ReactJS
-  icon: icon-reactjs
 - name: Javascript
   icon: icon-javascript
 - name: AWS
   icon: icon-aws
 - name: Docker
   icon: icon-docker
-- name: Android
-  icon: fa-android
 - name: Azure
   icon: icon-azure

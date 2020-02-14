@@ -28,9 +28,9 @@ author: # change following line to your infomation.
 
   skill_icon2:
     - name: icon-docker
-    - name: icon-shell
+    - name: icon-reactjs
 
-  desc: Ex-President of RIT India Linux Users' Group | Red Hat Certified Engineer | Red Hat Certified System Administrator | Open Source Contributor | Linux User | Python lover <br> I have a bit of experience in the cloud. Worked on many cloud platforms like AWS, Azure, OpenFaas, and Aneka. <br> Successfully done a CI-CD for Angular and C# based project over Azure DevOps and worked on GitLab's CI for many projects.<br> Worked some complex utilities written in python. I am known for my quick understanding, fast and effective implementation of problems. Full-stack with Angular and React as frontend frameworks as well Python(Flask), Java(Spring boot) for backend development.
+  desc: Ex-President of RIT India Linux Users' Group | Red Hat Certified Engineer | Red Hat Certified System Administrator | Open Source Contributor | Linux User | Python lover | React developer <br> I have a bit of experience in the cloud. Worked on many cloud platforms like AWS, Azure, OpenFaas, and Aneka. <br> Successfully done a CI-CD for Angular and C# based project over Azure DevOps and worked on GitLab's CI for many projects.<br> Worked some complex utilities written in python. I am known for my quick understanding, fast and effective implementation of problems. Full-stack with Angular and React as frontend frameworks as well Python(Flask), Java(Spring boot) for backend development.
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
